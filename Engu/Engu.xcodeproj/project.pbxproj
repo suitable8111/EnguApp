@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7052B84121AC457200120BFE /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7052B84021AC457200120BFE /* TestViewController.swift */; };
+		7052B84321B29EF400120BFE /* TestDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7052B84221B29EF400120BFE /* TestDataModel.swift */; };
 		706EE0561E6541050015A8E4 /* CompleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706EE0551E6541050015A8E4 /* CompleteViewController.swift */; };
 		706EE0581E65634C0015A8E4 /* CompleteModel.plist in Resources */ = {isa = PBXBuildFile; fileRef = 706EE0571E65634C0015A8E4 /* CompleteModel.plist */; };
 		707FB6121E5BE019008251BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707FB6111E5BE019008251BD /* AppDelegate.swift */; };
@@ -42,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7052B84021AC457200120BFE /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		7052B84221B29EF400120BFE /* TestDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDataModel.swift; sourceTree = "<group>"; };
 		706EE0551E6541050015A8E4 /* CompleteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompleteViewController.swift; sourceTree = "<group>"; };
 		706EE0571E65634C0015A8E4 /* CompleteModel.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CompleteModel.plist; sourceTree = "<group>"; };
 		707FB60E1E5BE019008251BD /* Engu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Engu.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -115,6 +119,7 @@
 		707FB6101E5BE019008251BD /* Engu */ = {
 			isa = PBXGroup;
 			children = (
+				7052B84021AC457200120BFE /* TestViewController.swift */,
 				707FB6111E5BE019008251BD /* AppDelegate.swift */,
 				70BFD08E1E690DAC00032F32 /* PracticeViewController.swift */,
 				707FB6131E5BE019008251BD /* ViewController.swift */,
@@ -128,6 +133,7 @@
 				706EE0571E65634C0015A8E4 /* CompleteModel.plist */,
 				707FB63F1E5BE164008251BD /* DataModel.plist */,
 				707FB6451E5C3600008251BD /* DataModel.swift */,
+				7052B84221B29EF400120BFE /* TestDataModel.swift */,
 			);
 			path = Engu;
 			sourceTree = "<group>";
@@ -300,7 +306,9 @@
 			files = (
 				707FB6461E5C3600008251BD /* DataModel.swift in Sources */,
 				707FB6141E5BE019008251BD /* ViewController.swift in Sources */,
+				7052B84121AC457200120BFE /* TestViewController.swift in Sources */,
 				707FB6441E5C17A9008251BD /* ListCell.swift in Sources */,
+				7052B84321B29EF400120BFE /* TestDataModel.swift in Sources */,
 				70BFD08F1E690DAC00032F32 /* PracticeViewController.swift in Sources */,
 				707FB6121E5BE019008251BD /* AppDelegate.swift in Sources */,
 				707FB6421E5C1752008251BD /* EditViewController.swift in Sources */,

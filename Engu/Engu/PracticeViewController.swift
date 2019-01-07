@@ -6,12 +6,13 @@
 //  Copyright © 2017년 Daeho. All rights reserved.
 //
 
+//PracticeView : 자신이 얼마나 외웠는지 시험을 치는 뷰
 import UIKit
 import AVFoundation
 
 class PracticeViewController: UIViewController {
     
-    @IBOutlet weak var englishLb: UILabel!
+    @IBOutlet weak var englishLb: UILabel!  
     @IBOutlet weak var koreanLb: UILabel!
     
     @IBOutlet weak var totalLb: UILabel!

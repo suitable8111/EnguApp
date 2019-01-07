@@ -75,14 +75,14 @@ class EditViewController : UIViewController, UITableViewDelegate, UITableViewDat
     
         }
     }
-//    func loadEditView() {
-//        if ViewController.dataModel.count == 0 {
-//            print("어라 데이터가 없군요!")
-//        }else {
-//            //START GAME EnguTest
-//            self.mTableView.reloadData()
-//        }
-//    }
+    func loadEditView() {
+        if ViewController.dataModel.count == 0 {
+            print("어라 데이터가 없군요!")
+        }else {
+            //START GAME EnguTest
+            self.mTableView.reloadData()
+        }
+    }
     //Plist 경로 들고오기
     private func getFileName(fileName:String) -> String {
         let docsDir = NSSearchPathForDirectoriesInDomains(FileManager.SearchPathDirectory.documentDirectory, FileManager.SearchPathDomainMask.userDomainMask, true)
@@ -191,7 +191,7 @@ class EditViewController : UIViewController, UITableViewDelegate, UITableViewDat
             dataModel.getJsonData(completionHandler: {(json) -> Void in
                 if json != nil {
                     if let json = json,
-                        let list = json["list"] as? NSArray {
+                        let _ = json["list"] as? NSArray {
                         print(json["list"] as? NSArray)
                     }
                     
